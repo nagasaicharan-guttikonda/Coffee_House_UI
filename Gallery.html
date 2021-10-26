@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    
+    <title>Gallery</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="print"/>
+
+    <style>
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+figcaption{
+    text-align: center;
+    
+    font-style: italic;
+}
+
+
+    </style>
+
+
+</head>
+<body class="wrapper">
+    <header>
+        <img src="images/javalogo.gif">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="MainPage.html">Home</a></li>
+
+            <div class="dropdown">
+                <li class="dropbtn">Menu</li>
+                <div class="dropdown-content">
+                  <a href="HotBrews.html">Hot Brews</a>
+                  <a href="ColdBrewa.html">Cold Brews</a>
+                </div>
+            </div>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li>Music</li>
+            <li><a href="Jobs.html">Jobs</a></li>
+        </ul>
+    </nav>        
+   
+    <figure>
+        <div class="container">
+            <p><h3>Guitarist</h3></p>
+            <img src="images/gregthumb.jpg" alt="Avatar" class="image" ><figcaption>Guitarist</figcaption> 
+            <div class="middle">
+                
+              <img src="images/greg.jpg">
+              
+            
+            </div>
+        <p>
+<br/>
+        </p>
+
+    </div>
+        <p><br/></p>
+    <div class="container">
+        <p><h3>Singer</h3></p>
+        <img src="images/melaniethumb.jpg" alt="Avatar" class="image" ><figcaption>Singer</figcaption> 
+        <div class="middle">
+          <img src="images/melanie.jpg">
+          
+        </div>
+    <p>
+<br/>
+    </p>
+
+</div>
+</figure>
+</body>
+    
+</html>

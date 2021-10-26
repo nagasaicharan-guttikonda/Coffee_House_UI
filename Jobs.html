@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Job Application</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="print"/>
+    </head>
+    <style>
+        form{
+        
+            padding-left: 30px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 40px;
+        }
+        .labe{
+            align-items: center;
+        }
+        header{
+            text-align: center;
+            padding-top: 10px;
+        }
+        .de{
+            text-align: center;
+        }
+
+
+
+
+    </style>
+    <body class="wrapper">
+        <header>
+            <img src="images/javalogo.gif">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="MainPage.html">Home</a></li>
+
+                <div class="dropdown">
+                    <li class="dropbtn"><a href="#">Menu</a></li>
+                    <div class="dropdown-content">
+                      <a href="HotBrews.html">Hot Brews</a>
+                      <a href="ColdBrewa.html">Cold Brews</a>
+                    </div>
+                </div>
+
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li>Music</li>
+                <li><a href="Jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <div>
+            <header><h3>Job Application for for Java Jam Cofee House</h3></header>
+        </div>
+        <div class="de">
+        <form>
+            <label for="fname" style="padding-left: 50px;">First name:</label>
+            <input type="text" id="fname" name="fname" value="">
+            <label for="lname" style="padding-left: 50px;">Last name:</label>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="fname"style="padding-left: 50px;">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+            <label for="birthday" style="padding-left: 50px;">Date of Birth:</label> 
+            <input type="date" id="birthday" name="birthday"><br><br>
+            
+            
+                <input type="submit" value="Submit">
+            </div>
+            
+
+
+        </form> 
+        <footer>
+            <p>Copyright&copy; 2021 JavaJam Coffee House <br/> <a href="javajamcofeehouse@gmail.com">javajamcofeehouse@gmail.com</a></p>
+        </footer>
+    </body>
+</html>

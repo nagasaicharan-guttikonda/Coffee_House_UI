@@ -1,0 +1,110 @@
+nav li  {
+    display: inline;
+    padding-right: 30px;
+}
+nav ul{
+    /* left: 290px; */
+    padding-left: 390px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.bg{
+    background-image: url(images/heroroad.jpg);
+    opacity: 0.7;
+    color: white;
+    height: 40%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    background-image: url(images/background.gif);
+    box-shadow: 10px 10px 5px black; 
+    padding-top: 10px;
+}
+header img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    background-color: burlywood;
+    padding: 2px;
+}
+
+.dropbtn {
+
+
+
+
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #ddd;}
+
+.mbg{
+    display: none;
+}
+header h2{
+    display: none;
+}
+@media only screen and (max-width:800px) {
+    header img{
+     display: none;
+    }
+    header h2{
+     display: inline;
+    }
+    nav ul{
+     padding-left: 10px;
+     display: grid;
+    }
+    footer{
+     width: 90%;
+    }
+    .mbg{
+     width: 100%;
+     display: block;
+    }
+    nav li {
+     display: inline;
+     padding-right: 30px;
+     padding-bottom: 20px;
+    }
+    .dropdown {
+     position: relative;
+     display: inline-block;
+     padding-bottom: 20px;
+    }
+    .bg{
+     display: none;
+    }
+}
